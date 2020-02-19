@@ -16,6 +16,15 @@ body {
   background: #000;
   color: #fff; }
 
+
+
+
+
+
+
+
+  
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -511,8 +520,11 @@ h1, h2, h3, h4, h5,
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
+      .site-navbar-link{
+        color: gray;
+      }
       .site-mobile-menu .site-nav-wrap li .active {
-        color: #37cfa2; }
+        color: #37cfa2; } 
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -614,6 +626,10 @@ h1, h2, h3, h4, h5,
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
+
+
+  
+
 
 /* Blocks */
 .site-block-wrap {
